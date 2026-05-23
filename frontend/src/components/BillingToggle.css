@@ -1,0 +1,75 @@
+.billing-toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px 0;
+  user-select: none;
+}
+
+.toggle-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-subtle);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-label.active {
+  color: var(--color-text-title);
+  font-weight: 600;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 52px;
+  height: 28px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  transition: background-color var(--transition-fast);
+}
+
+.toggle-switch.monthly {
+  background-color: var(--color-text-subtle);
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: transform var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.toggle-switch.annual .toggle-slider {
+  transform: translateX(24px);
+}
+
+.discount-badge {
+  background-color: #E6FCF5;
+  color: #0CA678;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid #C3FAE8;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body.dark-mode .discount-badge {
+  background-color: #123428;
+  color: #34D399;
+  border-color: #1a4d3b;
+}

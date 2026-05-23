@@ -1,0 +1,106 @@
+.feature-table-wrapper {
+  max-width: 1200px;
+  margin: 64px auto;
+  padding: 0 24px;
+}
+
+.table-section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: center;
+  color: var(--color-text-title);
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--color-bg-card);
+  transition: background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.comparison-table th, .comparison-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--color-border);
+  min-width: 120px;
+}
+
+.comparison-table th {
+  background-color: var(--color-bg-accent);
+  color: var(--color-text-title);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition: background-color var(--transition-normal);
+}
+
+.comparison-table .feature-col-title {
+  text-align: left;
+  min-width: 250px;
+  font-size: 1rem;
+}
+
+.comparison-table .feature-name {
+  text-align: left;
+  font-weight: 500;
+  color: var(--color-text-title);
+}
+
+.category-row {
+  background-color: var(--color-primary-light);
+}
+
+.category-row td {
+  text-align: left;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+body.dark-mode .category-row {
+  background-color: #172b4d;
+}
+body.dark-mode .category-row td {
+  color: var(--color-primary);
+}
+
+.comparison-table tbody tr:hover {
+  background-color: var(--color-bg-accent);
+}
+
+.popular-col {
+  background-color: rgba(0, 82, 204, 0.03);
+}
+
+.comparison-table tr:hover .popular-col {
+  background-color: rgba(0, 82, 204, 0.06);
+}
+
+.feat-check {
+  color: var(--color-success);
+  margin: 0 auto;
+}
+
+.feat-cross {
+  color: var(--color-danger);
+  margin: 0 auto;
+  opacity: 0.4;
+}
+
+.feature-text-val {
+  color: var(--color-text-body);
+  font-weight: 500;
+}
