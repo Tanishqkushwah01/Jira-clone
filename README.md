@@ -147,7 +147,18 @@ https://www.atlassian.com/software/jira
 
 # 📸 SCREENSHOTS
 
-Add your project screenshots here.
+Add your project screenshots here.<img width="1920" height="911" alt="Screenshot 2026-05-23 204936" src="https://github.com/user-attachments/assets/25d3077e-4ec5-443e-b223-9804eb360e2f" />
+<img width="1920" height="907" alt="Screenshot 2026-05-23 205000" src="https://github.com/user-attachments/assets/3a6472d6-bc79-4889-9a2c-7c0c180ae618" />
+<img width="1920" height="907" alt="Screenshot 2026-05-23 205011" src="https://github.com/user-attachments/assets/17a36f9a-d317-4c7d-ad4a-8b1e7c56b875" />
+<img width="1920" height="911" alt="Screenshot 2026-05-23 205020" src="https://github.com/user-attachments/assets/adc64a09-b7f0-44c3-a5cc-d0603000d8be" />
+Jira Clone | Dark Mode Authentication
+
+<img width="1920" height="913" alt="Screenshot 2026-05-23 205311" src="https://github.com/user-attachments/assets/3b090c37-da45-49f4-9d3a-231f6d2832e6" />
+
+
+
+
+
 
 ```bash
 /screenshots
